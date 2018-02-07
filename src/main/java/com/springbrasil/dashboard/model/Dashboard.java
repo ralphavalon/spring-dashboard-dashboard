@@ -5,8 +5,8 @@ import org.springframework.data.annotation.Id;
 public class Dashboard {
 
 	@Id
-	public String id;
-	public String name;
+	private String id;
+	private String name;
 	
 	public String getId() {
 		return id;
